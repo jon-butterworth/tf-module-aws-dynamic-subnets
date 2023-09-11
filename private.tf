@@ -1,5 +1,5 @@
 module "private_label" {
-  source  = "git::https://github.com/socratesdao/tf-module-null-label"
+  source  = "git::https://github.com/jon-butterworth/tf-module-null-label"
 
   attributes = [var.private_label]
   tags = merge(
